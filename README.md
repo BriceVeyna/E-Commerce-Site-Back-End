@@ -14,10 +14,19 @@ This project takes a base starter code and builds the server-side of an e-commer
 - [License](#license)
 
 ## Installation
-clone repo, npm install, create .env with user and password, log into mysql shell and run schema.sql, quit and npm run seed, node server.js, go to port in insomnia.
+1. Clone the repository 
+2. Install the required packages with npm install
+3. Create a .env file with the database name, user, and password
+4. Log into mysql shell and run schema.sql then quit the shell
+5. Populate the database with npm run seed
+6. Initialize the server with node server.js
+7. Go to the site in Insomnia
 
 ## Usage
 go to correct url, select a get, post, put, or delete request, enter in the needed fields and send.
+
+### Walkthrough Video
+[E-Commerce-Site-Back-End Walkthrough](https://github.com/BriceVeyna/E-Commerce-Site-Back-End/blob/main/assets/Demo.webm)
 
 ## Features
 
